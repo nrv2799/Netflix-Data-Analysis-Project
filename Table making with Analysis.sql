@@ -110,3 +110,23 @@ on n.show_id = nd.show_id
 where type = 'Movie' and ng.genre in ('Comedies', 'Horror Movies')
 group by nd.director
 having COUNT(distinct ng.genre) = 2
+
+/* FINAL INSIGHTS AND FINDINGS
+
+A) Prolific Directors:
+- Identified directors who have created both movies and TV shows, highlighting versatile talents in the industry.
+
+B) Top Country for Comedy Movies:
+Determined the country that produces the highest number of comedy movies, offering insights into regional preferences and strengths.
+
+C) Active Directors by Year:
+Found which directors had the most movie releases each year, showcasing trends in director activity and productivity over time.
+
+D) Average Movie Duration by Genre:
+Calculated the average duration of movies across different genres, 
+helping understand typical runtime expectations for various types of content.
+
+E) Diverse Genre Directors:
+Identified directors who have produced both comedy and horror movies, highlighting those with a diverse genre portfolio.
+
+*/
